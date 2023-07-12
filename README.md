@@ -1,10 +1,14 @@
-# create-cdk-typescript
+# ts-template
 
-Bootstrap a Typescript CDK Project.
+Basic TypeScript template with support for
 
-CDK has it's own bootstrap command, but it's not ideal. This bootstrap project adds support for the following
+## Pre-commit hooks
 
-- Optional ES Module support in Typescript
-- `vitest` as the test framework, over `jest`
-- Home folder selection
-- Basic monorepo support
+- Convential Commits enforced
+- ESLint & Prettier
+    - Standard code style enforced
+    - 2 space tab width, single quotation marks, and no semi-colons
+
+## TypeScript Config
+
+- ES Module support for Node
